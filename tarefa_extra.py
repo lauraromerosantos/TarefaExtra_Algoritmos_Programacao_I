@@ -1,22 +1,3 @@
-'''
-Precisamos criar uma agenda para armazenar o nome e o telefone das pessoas.
-Algoritmo:
-1- Definir o dicionário para armazenar os dados
-2- Inserir os dados no dicionário
-    - digitar nome 
-    - digitar telefone
-    - guardar nome e telefone na agenda
-3- Aleterar o telefone de alguém
-    - ler um nome
-    - localiza na agenda
-    - le o novo número
-4- Apagar o telefone de alguém
-    - ler o nome
-    - localizar na agenda
-    - deletar da agenda
-5- Imprimir a agenda
-'''
-
 agenda = {'ivonei':['1111'], 'maria':['2222'], 'pedro': ['3333'],'aaa':['999991111','999992222','999993333']}
 
 def ler_telefone(telefones = []):
